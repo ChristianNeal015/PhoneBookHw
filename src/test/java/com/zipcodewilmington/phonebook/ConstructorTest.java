@@ -8,9 +8,10 @@ import java.util.List;
 import java.util.Map;
 
 public class ConstructorTest {
+    private Map PhoneBook;
     @Test
     public void testNullaryConstructor() {
-        // given
+
         // when
         PhoneBook phoneBook = new PhoneBook();
 
