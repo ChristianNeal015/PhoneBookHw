@@ -18,7 +18,7 @@ public class GetAllContactNames {
         }
 
         // when
-        List<String> actualNames = phoneBook.getAllContactNames();
+        String actualNames = phoneBook.getAllContactNames();
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
@@ -35,7 +35,7 @@ public class GetAllContactNames {
         }
 
         // when
-        List<String> actualNames = phoneBook.getAllContactNames();
+        String actualNames = phoneBook.getAllContactNames();
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
@@ -52,7 +52,7 @@ public class GetAllContactNames {
         }
 
         // when
-        List<String> actualNames = phoneBook.getAllContactNames();
+        String actualNames = phoneBook.getAllContactNames();
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
